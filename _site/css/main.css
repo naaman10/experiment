@@ -3,13 +3,13 @@ body {
   padding: 200px;
   background-color: #000C1C;
   color: #ffffff;
-  font-family: "PT Sans", sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 h1 {
   font-size: 6em; }
 
 h1, h2, h3, h4, .navbar-brand {
-  font-family: "PT Serif", serif; }
+  font-family: "Playfair Display", serif; }
 
 .sub-title {
   width: 100%;
@@ -19,7 +19,7 @@ h1, h2, h3, h4, .navbar-brand {
   padding: 5px; }
 
 .sub-title h2 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 20px; }
 
