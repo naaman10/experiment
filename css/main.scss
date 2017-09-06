@@ -1,0 +1,95 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+// Color Variables
+
+$primary: #000C1C;
+$secondary: #ffffff;
+
+// Font Variables
+
+$font-header: 'PT Serif', serif;;
+$font-body: 'PT Sans', sans-serif;;
+
+
+
+/* Custom CSS */
+
+body {
+  padding: 200px;
+  background-color: $primary;
+  color: $secondary;
+  font-family: $font-body;
+}
+h1 {
+  font-size: 6em;
+}
+h1,h2,h3,h4,.navbar-brand {
+  font-family: $font-header;
+}
+.sub-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: -22px;
+  background-color: $primary;
+  padding: 5px;
+}
+.sub-title h2 {
+  font-family: $font-body;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section {
+  border: 1px solid $secondary;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.fa {
+  color: $secondary;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.section:hover .fa {
+  color: $primary;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.section:hover {
+  border: 1px solid $secondary;
+  background-color: $secondary;
+  color: $primary;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+blockquote {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 20px;
+}
+blockquote span {
+  font-style: normal;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+  }
