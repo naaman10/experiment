@@ -6,8 +6,9 @@
 
 // Color Variables
 
-$primary: #000C1C;
-$secondary: #ffffff;
+$primary: #071013;
+$secondary: #DDDFDF;
+$accent: #E1AEBA;
 
 // Font Variables
 
@@ -78,11 +79,14 @@ h1,h2,h3,h4,.navbar-brand {
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
-
+.image {
+  padding-left: 0;
+  padding-right: 0;
+}
 blockquote {
   font-style: italic;
   font-weight: lighter;
-  font-size: 20px;
+
 }
 blockquote span {
   font-style: normal;
