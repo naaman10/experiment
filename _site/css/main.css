@@ -1,8 +1,8 @@
 /* Custom CSS */
 body {
   padding: 200px;
-  background-color: #071013;
-  color: #DDDFDF;
+  background-color: #ffffff;
+  color: #071013;
   font-family: "Raleway", sans-serif; }
 
 h1 {
@@ -15,7 +15,7 @@ h1, h2, h3, h4, .navbar-brand {
   width: 100%;
   text-align: center;
   margin-bottom: -22px;
-  background-color: #071013;
+  background-color: #ffffff;
   padding: 5px; }
 
 .sub-title h2 {
@@ -24,7 +24,7 @@ h1, h2, h3, h4, .navbar-brand {
   font-size: 20px; }
 
 .section {
-  border: 1px solid #DDDFDF;
+  border: 1px solid #071013;
   padding: 20px;
   text-align: center;
   -webkit-transition: all 1s ease;
@@ -34,15 +34,18 @@ h1, h2, h3, h4, .navbar-brand {
   transition: all 1s ease; }
 
 .fa {
-  color: #DDDFDF;
+  color: #071013;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
 
+.fa:hover {
+  color: #E1AEBA; }
+
 .section:hover .fa {
-  color: #071013;
+  color: #ffffff;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -50,9 +53,9 @@ h1, h2, h3, h4, .navbar-brand {
   transition: all 1s ease; }
 
 .section:hover {
-  border: 1px solid #DDDFDF;
-  background-color: #DDDFDF;
-  color: #071013;
+  border: 1px solid #071013;
+  background-color: #071013;
+  color: #ffffff;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -62,6 +65,9 @@ h1, h2, h3, h4, .navbar-brand {
 .image {
   padding-left: 0;
   padding-right: 0; }
+
+.w-100 {
+  height: 100%; }
 
 blockquote {
   font-style: italic;
