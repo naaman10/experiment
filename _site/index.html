@@ -26,7 +26,7 @@
 
   <body>
 
-  
+
 
 
 
@@ -40,26 +40,26 @@
     <div class="sub-title"><h2>Web Design</h2></div>
   </div> -->
   <div class="row">
-    <div class="col-md-4 section">
+    <div class="col-md-12 col-lg-4 section">
       <h2>Connect</h2>
       <!-- Social Bits -->
 <div class="row">
-  <div class="col-xs-3 col-md-3">
+  <div class="col-3">
       <a href="https://www.instagram.com/naaman10">
       <i class="fa fa-instagram fa-3x" data-wow-delay=".1s"></i>
       </a>
   </div>
-  <div class="col-xs-3 col-md-3">
+  <div class="col-3">
       <a href="https://www.twitter.com/NaamanHudson">
           <i class="fa fa-twitter fa-3x" data-wow-delay=".1s"></i>
       </a>
   </div>
-  <div class="col-xs-3 col-md-3">
+  <div class="col-3">
       <a href="https://www.github.com/naaman10">
       <i class="fa fa-github fa-3x" data-wow-delay=".1s"></i>
       </a>
   </div>
-  <div class="col-xs-3 col-md-3">
+  <div class="col-3">
       <a href="mailto:naamanh10@gmail.com">
       <i class="fa fa-envelope-o fa-3x" data-wow-delay=".1s"></i>
       </a>
@@ -67,7 +67,7 @@
 </div>
 
     </div>
-    <div class="col-md-8 section"><h2>Welcome</h2><p>My name is Naaman, I'm a web designer/developer, UX Expert, cycling enthusiast and general creative. This is my site, here is where you can find information about my work and interests, projects I'm working on and any other things I can think of.</p></div>
+    <div class="col-md-12 col-lg-8 section"><h2>Welcome</h2><p>My name is Naaman, I'm a web designer/developer, UX Expert, cycling enthusiast and general creative. This is my site, here is where you can find information about my work and interests, projects I'm working on and any other things I can think of.</p></div>
   </div>
   <div class="row">
     <div class="col-md-12 section">
@@ -75,8 +75,8 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-8 image">
-      <div id="carousel1" class="carousel slide" data-ride="carousel">
+    <div class="col-md-12 col-lg-8 image">
+  <div id="carousel1" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="/img/ride.jpg" alt="First slide">
@@ -104,42 +104,39 @@
   </a>
 </div>
 
-      <!-- <img src="/img/trail.jpg" width="100%"> -->
-    </div>
-    <div class="col-md-4 section">
-      <h2>Photography</h2>
-      <p>This section gives an example of image use. Image is 16:9.</p>
-    </div>
 </div>
-<div class="row">
-  <div class="col-md-4 section">
-    <h2>Web Design</h2>
-    <p></p>
+<div class="col-md-12 col-lg-4 section">
+  <h2>Photography</h2>
+  <p>This section gives an example of image use. Image is 16:9.</p>
+</div>
+
   </div>
-  <div class="col-md-8 image">
-    <div id="carousel2" class="carousel slide" data-ride="carousel">
+  <div class="row">
+    <div class="col-md-12 col-lg-8 image col-switch-b">
+  <div id="carousel2" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="/img/web/checkmirrors.jpg" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
         <h3>checkmirrors.co.uk</h3>
-        <p>Find out more</p>
+        <a href="http://www.checkmirrors.co.uk" target="_blank">Find out more</a>
+        <!-- <button class="btn btn-link" data-toggle="modal" data-target=".checkmirrors-modal">Find out more</button> -->
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="/img/web/gypsymothshull.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
         <h3>gypsymothshull.co.uk</h3>
-        <p>Find out more</p>
+        <a href="http://www.gypsymothshull.co.uk" target="_blank">Find out more</a>
       </div>
     </div>
-    <div class="carousel-item">
+    <!-- <div class="carousel-item">
       <img class="d-block w-100" src="/img/web/bucky.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
         <h3>thebuccaneerbrough</h3>
         <p>Find out more</p>
       </div>
-    </div>
+    </div> -->
   </div>
   <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -151,14 +148,129 @@
   </a>
 </div>
 
+
+
+
+<div class="modal fade checkmirrors-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+       <h5 class="modal-title">checkmirrors.co.uk</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
+                <a class="nav-link active" id="mobile-tab" data-toggle="pill" href="#mobile-tab" role="tab" aria-controls="mobile-tab" aria-expanded="true">mobile</a>
+                <a class="nav-link" id="tablet-tab" data-toggle="pill" href="#tablet-tab" role="tab" aria-controls="tablet-tab" aria-expanded="true">tablet</a>
+                <a class="nav-link" id="desktop-tab" data-toggle="pill" href="#desktop-tab" role="tab" aria-controls="desktop-tab" aria-expanded="true">desktop</a>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show" id="mobile-tab" role="tabpanel" aria-labelledby="mobile-tab">mobile</div>
+                <div class="tab-pane fade" id="tablet-tab" role="tabpanel" aria-labelledby="tablet-tab">tablet</div>
+                <div class="tab-pane fade" id="desktop-tab" role="tabpanel" aria-labelledby="desktop-tab">desktop</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
+</div>
+<div class="col-md-12 col-lg-4 section">
+  <h2>Web Design</h2>
+  <p>Here are some examples of some web design/development projects I have built. Building websites has always been a love of mine, I am always keen to take on new freelance projects as a way to fuel the passion and keep me up to speed with current web technologies.</p>
+</div>
+<div class="col-md-12 col-lg-8 image col-switch-a">
+  <div id="carousel2" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/img/web/checkmirrors.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>checkmirrors.co.uk</h3>
+        <a href="http://www.checkmirrors.co.uk" target="_blank">Find out more</a>
+        <!-- <button class="btn btn-link" data-toggle="modal" data-target=".checkmirrors-modal">Find out more</button> -->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/web/gypsymothshull.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>gypsymothshull.co.uk</h3>
+        <a href="http://www.gypsymothshull.co.uk" target="_blank">Find out more</a>
+      </div>
+    </div>
+    <!-- <div class="carousel-item">
+      <img class="d-block w-100" src="/img/web/bucky.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>thebuccaneerbrough</h3>
+        <p>Find out more</p>
+      </div>
+    </div> -->
+  </div>
+  <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+<div class="modal fade checkmirrors-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+       <h5 class="modal-title">checkmirrors.co.uk</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
+                <a class="nav-link active" id="mobile-tab" data-toggle="pill" href="#mobile-tab" role="tab" aria-controls="mobile-tab" aria-expanded="true">mobile</a>
+                <a class="nav-link" id="tablet-tab" data-toggle="pill" href="#tablet-tab" role="tab" aria-controls="tablet-tab" aria-expanded="true">tablet</a>
+                <a class="nav-link" id="desktop-tab" data-toggle="pill" href="#desktop-tab" role="tab" aria-controls="desktop-tab" aria-expanded="true">desktop</a>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show" id="mobile-tab" role="tabpanel" aria-labelledby="mobile-tab">mobile</div>
+                <div class="tab-pane fade" id="tablet-tab" role="tabpanel" aria-labelledby="tablet-tab">tablet</div>
+                <div class="tab-pane fade" id="desktop-tab" role="tabpanel" aria-labelledby="desktop-tab">desktop</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </div>
 
 
 
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="/js/scripts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>

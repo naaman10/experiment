@@ -13,11 +13,11 @@ layout: default
     <div class="sub-title"><h2>Web Design</h2></div>
   </div> -->
   <div class="row">
-    <div class="col-md-4 section">
+    <div class="col-md-12 col-lg-4 section">
       <h2>Connect</h2>
       {% include social.html %}
     </div>
-    <div class="col-md-8 section"><h2>Welcome</h2><p>My name is Naaman, I'm a web designer/developer, UX Expert, cycling enthusiast and general creative. This is my site, here is where you can find information about my work and interests, projects I'm working on and any other things I can think of.</p></div>
+    <div class="col-md-12 col-lg-8 section"><h2>Welcome</h2><p>My name is Naaman, I'm a web designer/developer, UX Expert, cycling enthusiast and general creative. This is my site, here is where you can find information about my work and interests, projects I'm working on and any other things I can think of.</p></div>
   </div>
   <div class="row">
     <div class="col-md-12 section">
@@ -25,21 +25,8 @@ layout: default
     </div>
   </div>
   <div class="row">
-    <div class="col-md-8 image">
-      {% include photo-slideshow.html %}
-      <!-- <img src="{{ site.github.url }}/img/trail.jpg" width="100%"> -->
-    </div>
-    <div class="col-md-4 section">
-      <h2>Photography</h2>
-      <p>This section gives an example of image use. Image is 16:9.</p>
-    </div>
-</div>
-<div class="row">
-  <div class="col-md-4 section">
-    <h2>Web Design</h2>
-    <p></p>
+    {% include photo-section.html %}
   </div>
-  <div class="col-md-8 image">
-    {% include web-slideshow.html %}
+  <div class="row">
+    {% include web-section.html %}
   </div>
-</div>
