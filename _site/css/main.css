@@ -1,108 +1,70 @@
 /* Custom CSS */
-body {
-  padding: 200px;
-  background-color: #ffffff;
-  color: #071013;
-  font-family: "Raleway", sans-serif; }
+html, body {
+  height: 100%;
+  font-family: 'Oswald', sans-serif; }
 
-h1 {
-  font-size: 6em; }
+.navbar {
+  background-color: rgba(18, 37, 49, 0.8);
+  height: 10%; }
 
-h1, h2, h3, h4, .navbar-brand {
-  font-family: "Playfair Display", serif; }
+.navbar-nav .nav-item {
+  font-weight: 500;
+  font-size: 22px; }
 
-.sub-title {
+.logo {
+  font-size: 100%;
+  line-height: 30px;
+  font-weight: bolder;
+  letter-spacing: 3px; }
+
+#slider {
+  height: 90%;
+  background-image: url("https://dyzmn8020x6cd.cloudfront.net/sys-master/nonproduct/hb7/hed/9129822453790/hp-women-h117-1_RAPHA_BANNER_1800");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  padding: 200px 0 280px 0;
+  position: relative;
+  color: white;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.4); }
+
+#slider:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
   width: 100%;
+  height: 100%;
+  background-image: url("../img/ram-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.1; }
+
+#sign-up {
   text-align: center;
-  margin-bottom: -22px;
-  background-color: #ffffff;
+  height: 15%;
+  background-color: grey;
   padding: 5px; }
 
-.sub-title h2 {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 20px; }
+.sign-up {
+  background: rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px 5% 5px;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  z-index: 1000;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center; }
 
-.section {
-  border: 1px solid #071013;
-  padding: 20px;
-  text-align: center;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease; }
+#promo-bar {
+  padding-top: 20px; }
 
-.fa {
-  color: #071013;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease; }
-
-.section:hover .fa:hover {
-  color: #E1AEBA; }
-
-.section:hover .fa {
-  color: #ffffff;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease; }
-
-.section:hover {
-  border: 1px solid #071013;
-  background-color: #071013;
-  color: #ffffff;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease; }
-
-.image {
-  padding-left: 0;
-  padding-right: 0; }
-
-.w-100 {
-  height: 100%; }
-
-.carousel-caption {
-  background-color: #E1AEBA;
-  color: #ffffff;
-  border-bottom: 2px solid white;
-  border-right: 2px solid white; }
-
-blockquote {
-  font-style: italic;
-  font-weight: lighter; }
-
-blockquote span {
-  font-style: normal; }
-
-.col-switch-b {
-  display: none; }
-
-@media screen and (max-width: 480px) {
-  body {
-    padding: 10px; }
-
-  h1 {
-    font-size: 72px; }
-
-  .col-switch-a {
-    display: none; }
-
-  .col-switch-b {
-    display: inline; } }
-@media screen and (max-width: 768px) {
-  body {
-    padding: 10px; }
-
-  h1 {
-    font-size: 80px; } }
-@media screen and (min-width: 770px) {
-  body {
-    padding: 200px; } }
+.card-img-top {
+  width: 100%;
+  height: auto; }
