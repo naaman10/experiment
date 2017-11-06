@@ -8,11 +8,12 @@
 
 $primary: #ffffff;
 $secondary: #071013;
-$accent: #E1AEBA;
+$accent: #ffca28;
+$accent-half: #ffca28;
 
 // Font Variables
 
-$font-header: 'Roboto', sans-serif;
+$font-header: 'Oswald', sans-serif;
 $font-body: 'Raleway', sans-serif;
 
 
@@ -21,28 +22,36 @@ $font-body: 'Raleway', sans-serif;
 
 html, body {
     height: 100%;
-    font-family: 'Oswald', sans-serif;
+    font-family: $font-header;
 }
 .navbar {
   background-color: rgba(18,37,49,0.8);
-  height: 10%;
+  min-height: 10%;
 }
 .navbar-nav .nav-item {
   font-weight: 500;
   font-size: 22px;
 }
+.navbar-inverse .navbar-toggler {
+  margin-top: 3%;
+  border: none;
+}
+.navbar-toggler-icon{}
+
 .logo {
-  font-size: 100%;
   line-height: 30px;
   font-weight: bolder;
   letter-spacing: 3px;
 }
 #slider {
+  text-align: center;
   height: 90%;
-  background-image: url('https://albumizr.com/ia/2c6788cd1101c596e658284ceb6c725a.jpg');
+  background-image: url('{{ site.github.url }}/img/home-background-image.jpeg');
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
+  // -webkit-filter: grayscale(95%);
+  // filter: grayscale(95%);
   padding: 200px 0 280px 0;
   position: relative;
   color: white;
@@ -61,7 +70,7 @@ html, body {
   background-image: url('../img/ram-white.png');
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 #sign-up {
   text-align: center;
@@ -72,7 +81,7 @@ html, body {
 .sign-up {
 background: rgba(0,0,0,0.7);
 box-sizing: border-box;
-color: rgba(255,255,255,0.8);
+color: #ffffff;
 padding: 10px 5% 5px;
 width: 100%;
 height: 100px;
@@ -89,4 +98,62 @@ text-align: center;
 .card-img-top {
   width: 100%;
   height: auto;
+}
+input.form-control{
+  border: 1px solid white;
+}
+.btn-primary {
+  background-color: $accent;
+  color: black;
+  border: none;
+  // text-shadow: 2px 3px 2px rgba(0,0,0,0.4);
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: $accent-half;
+}
+ul.slam-list{
+  padding-left: 0;
+}
+li.slam-item {
+  animation: rattle 0.2s;
+  animation-delay: .2s;
+}
+.slam-item
+{
+  animation: slam .2s;
+  animation-timing-function: ease-in;
+  color: #ffffff  ;
+  display: block;
+  font-family: $font-header;
+  font-size: 18px;
+  font-weight: 900;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+@keyframes slam
+{
+  0%
+  {
+    transform: scale(10, 10);
+    opacity: 0;
+  }
+}
+
+@keyframes rattle
+{
+  0% { margin-top: 0; margin-left: 0; }
+  10% { margin-top: -5px; margin-left: 0; }
+  20% { margin-top: 0; margin-left: -5px; }
+  30% { margin-top: 5px; margin-left: 0; }
+  40% { margin-top: 0; margin-left: 5px; }
+  50% { margin-top: -2px; margin-left: 0; }
+  60% { margin-top: 0; margin-left: -2px; }
+  70% { margin-top: 2px; margin-left: 0; }
+  80% { margin-top: 0; margin-left: 2px; }
+  90% { margin-top: -1px; margin-left: 0; }
+  100% { margin-top: 0; margin-left: 0; }
 }
