@@ -43,3 +43,14 @@ if (hasTouch()) { // remove all :hover stylesheets
 }
 
 // disable hover on touch end
+
+// active page
+var title = (document.title);
+
+if (title == 'EUCC | Home') {
+$('#home-nav').addClass('active');
+}
+if (title == 'EUCC | Coming Soon') {
+  $('#about-nav').addClass('active');
+}
+console.log(title);
